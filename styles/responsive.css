@@ -2,7 +2,7 @@
 
 
     body{
-        overflow: hidden;
+        overflow-x: hidden;
         width: 100vw;
 
     }
@@ -78,4 +78,33 @@
     .banner-right{
         width: 100%;
     }
+
+    /* plants section */
+
+    .plants{
+        max-width: 336px;
+    }
+
+    .plant-title{
+        font-size: 1.5rem;
+    }
+    .plant-dis{
+        font-size: 0.875rem;
+    }
+
+    .plant-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .plant-name{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .plant-price{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+
 }
