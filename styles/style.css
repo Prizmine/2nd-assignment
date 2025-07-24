@@ -38,11 +38,22 @@ background: #F5F8FF;
 /* header */
 
 header{
+  margin-top: 30px;
+}
+
+.phone-data{
+  width: 70vw;
+  margin: 0 auto;
+  /* margin: 0; */
+  padding: 0;
+  /* justify-self: center; */
+  display: none;
+}
+
+nav{
   max-width: 1140px;
   height: 71px;
   margin: 0 auto;
-  margin-top: 30px;
-  
 }
 
 .header-nav{

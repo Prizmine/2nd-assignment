@@ -6,14 +6,48 @@
         width: 100vw;
 
     }
+
+    header{
+        width: 100%; 
+        margin-top: 0px;
+    }
     .hidden-item{ 
         display: none;
     }
+
+    .phone-data{
+        display: flex;
+        justify-content: space-around;
+        gap: 163px;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 54px;
+    }
+
     .nav-list{
         gap: 0;
     }
     header{
         width: 90vw;
+    }
+
+
+    nav{
+        margin: 0 auto;
+        width: 95%;
+        margin-top: 0;
+
+    }
+
+    
+    /* .cart-container{
+        margin-left: 50px;
+    } */
+
+    .cart{
+        padding-left: 100px;
     }
 
     .nav-image{
