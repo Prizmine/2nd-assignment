@@ -157,3 +157,56 @@ nav{
   height: 50px;
   margin-top: 30px;
 }
+
+
+/* plant lover section */
+
+.plants-lover{
+  margin-top: 210.12px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  justify-self: center;
+  max-height: 540px;
+  gap: 60px;
+  position: relative;
+}
+
+.lover-title{
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.lover-right{
+  max-width: 540px;
+  max-height: 521px;
+
+}
+.lover-list{
+  /* max-height: ; */
+  display: block;
+  list-style-type: armenian;
+
+}
+
+.lover-list-item{
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+
+.plant-lover-img{
+  max-height: 597px;
+  max-width: 540px;
+  /* height: 540px; */
+}
+
+
+.badge{
+  position: absolute;
+  top: -130px;
+  right: calc(50% - 60px);
+  max-width: 286px;
+  max-height: 286px;
+  z-index: 100;
+}

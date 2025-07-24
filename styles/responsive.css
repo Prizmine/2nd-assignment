@@ -106,5 +106,31 @@
         font-size: 1rem;
     }
 
+    .plants-lover{
+        flex-direction: column;
+        max-width: 358px;
+        justify-self: center;
+    }
 
+    .plant-lover-img{
+        max-width: 358px;
+        max-height: 396px;
+    }
+
+    .lover-title{
+        font-size: 1.5rem;
+    }
+
+    .lover-list{
+        font-size: 0.875rem;
+        list-style-type: disc;         
+        list-style-position: outside;
+        margin-left: 1.5rem;           
+        padding-left: 1rem; 
+    }
+
+    .lover-list-item{
+        margin-top: 16px;
+        line-height: 17px;
+    }
 }
