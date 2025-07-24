@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
     <header>
@@ -24,11 +25,11 @@
 
             <div class="nav-list-container">
                 <ul class="nav-list flex gap-[48px]">
-                    <li><a href="" class="inter font-bold nav-link home">Home</a></li>
+                    <li><a href="" class="inter font-bold nav-link home hidden-item">Home</a></li>
 
-                    <li><a href="" class="inter font-[500] nav-link dark">Shop</a></li>
+                    <li><a href="" class="inter font-[500] nav-link dark hidden-item">Shop</a></li>
 
-                    <li><a href="" class="inter font-[500] nav-link dark">About us</a></li>
+                    <li><a href="" class="inter font-[500] nav-link dark hidden-item">About us</a></li>
 
                     <li><a href="" class="inter font-[500] cart-link"><i class="fa-solid fa-cart-shopping"></i>  Cart ($256)</a></li>
                 </ul>
@@ -39,7 +40,18 @@
 
 
     <main>
+        <section class="banner max-w-[1140px]  flex justify-between">
+            <div class="banner-left">
+                <h2 class="banner-title lg:text-[4.1rem] font-bold noto-serif">ALWAYS <span class="primary-col">FRESH<br>FLOWERS</span></h2>
+                <p class="banner-dis inter dark2 font-[500]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
 
+            <div class="banner-right">
+
+                <img src="./assets/hero-flower.png" alt="flower" class="banner-right-img">
+
+            </div>
+        </section>
     </main>
 
 

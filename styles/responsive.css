@@ -1,0 +1,47 @@
+@media screen and (max-width:570px){
+
+
+    body{
+        overflow: hidden;
+        width: 100vw;
+
+    }
+    .hidden-item{ 
+        display: none;
+    }
+    .nav-list{
+        gap: 0;
+    }
+    header{
+        width: 90vw;
+    }
+
+    .nav-image{
+        width: 63px;
+        height: 38px;
+    }
+
+    .banner{
+        margin-top: 28px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .banner-left{
+        max-width: 95%;
+        margin: 0 auto;
+        margin-top: 28px;
+    }
+    .banner-title{
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+    .banner-dis{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .banner-right{
+        width: 100%;
+    }
+}

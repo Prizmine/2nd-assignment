@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body{
+
+background: #F5F8FF;
+}
+
 /* fonts */
 
 .noto-serif {
@@ -25,10 +30,10 @@
 
 /* shared styles */
 
-.dark{
-  color: #8987A1;
-}
+.dark{color: #8987A1;}
+.dark2{color: rgba(0, 0, 0, 0.5);}
 
+.primary-col{color:#E95A08;}
 
 /* header */
 
@@ -46,4 +51,33 @@ header{
 
 .home{
   color:#252432;
+}
+
+
+/* main */
+
+/* banner */
+
+.banner{
+  margin: 0 auto;
+  margin-top: 120px;
+  max-width: 1140px;
+}
+
+.banner-title{
+  margin-top: 162px;
+}
+
+.banner-left{
+  max-width: 50%;
+  margin-top: 13px;
+}
+
+.banner-right{
+  width: 50%;
+}
+
+.banner-right-img{
+  width: 100%;
+  margin-top: 106px;
 }
