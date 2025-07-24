@@ -181,5 +181,29 @@
         line-height: 17px;
         width: 336px;
     }
+
+    /* newsletter section */
+
+    .newsletter{
+        height: 276px;
+    }
+
+    .newsletter-title{
+        font-size: 20px;
+        padding-top: 110.5px;
+    }
+
+    .form{
+        max-width: 321px;
+        margin-top: 23px;
+    }
+    .form-btn{
+        font-size: 1rem;
+        width: 103px;
+    }
+    .form-email{
+        width: 218px;
+        
+    }
 }
 
