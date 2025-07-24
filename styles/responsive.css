@@ -133,4 +133,53 @@
         margin-top: 16px;
         line-height: 17px;
     }
+
+    .latest-cards{
+        flex-direction: column;
+        margin-top: 51.5px;
+        
+    }
+    .latest{
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .latest1 , .latest2, .latest3{
+        width: 361px;
+        height: 184.5px;
+        border-radius: 14px;
+        margin: 0 auto;
+    }
+
+
+    .latest-left-title{
+        font-size: 1.25rem;
+        margin-top: 65px;
+    }
+
+    .latest-right-dis a{
+        font-size: 1rem;
+        margin-top: 19px;
+    }
+
+    .latest-left-dis a{
+        font-size: 1rem;
+        margin-top: 19px;
+    }
+    .latest-right-title{
+        padding-top: 65px;
+        font-size: 1.25rem;
+    }
+
+    .latest-title{
+        font-size: 1.5rem;
+        margin-top: 143px;
+    }
+
+    .latest-dis{
+        font-size: 0.875rem;
+        line-height: 17px;
+        width: 336px;
+    }
 }
+

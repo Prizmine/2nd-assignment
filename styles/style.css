@@ -167,7 +167,7 @@ nav{
   justify-content: space-between;
   max-width: 1140px;
   justify-self: center;
-  max-height: 540px;
+  /* max-height: 540px; */
   gap: 60px;
   position: relative;
 }
@@ -183,11 +183,14 @@ nav{
 
 }
 .lover-list{
-  /* max-height: ; */
-  display: block;
-  list-style-type: armenian;
-
+        list-style-type: disc;         
+        list-style-position: outside;
+        margin-left: 1.5rem;           
+        padding-left: 1rem; 
+        line-height: 27px;
+    
 }
+
 
 .lover-list-item{
   margin-top: 20px;
@@ -209,4 +212,88 @@ nav{
   max-width: 286px;
   max-height: 286px;
   z-index: 100;
+}
+
+
+
+
+.latest{
+  justify-self: center;
+  margin-top: 133.87px;
+  
+}
+
+.latest-title{
+  text-align: center;
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.latest-dis{
+  font-size: 1.375rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 888px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+
+.latest1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../assets/deal-bloom.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
+}
+
+.latest2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../assets/deal-ana.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
+  align-items: center;
+}
+
+.latest-cards{
+  margin-top: 120px;
+}
+
+.latest3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../assets/deal-zabo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 753px;
+  height: 427.13px;
+  border-radius: 22px;
+
+}
+
+.latest-left-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.latest-left-dis a{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 19px;
+  text-decoration: underline;
+}
+
+.latest-right-title{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 172.12px;
+}
+
+.latest-right-dis a{
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 19px;
+  text-decoration: underline;
 }
